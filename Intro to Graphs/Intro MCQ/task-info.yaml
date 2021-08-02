@@ -1,0 +1,16 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: 66
+  is_correct: false
+- text: 76
+  is_correct: true
+- text: 63
+  is_correct: false
+- text: 84
+  is_correct: false
+message_correct: Correct! If you travel from node 3 to node 4, then to node 2, the sum of weights is 27+11+38 which is 76! Good job.
+message_incorrect: Check your calculation and try again.
+files:
+- name: src/Main.java
+  visible: true

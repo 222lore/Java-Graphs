@@ -1,0 +1,12 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: Adjacency List
+  is_correct: true
+- text: Adjacency Matrix
+  is_correct: false
+message_correct: Correct! Consider a graph with N nodes and E edges. An adjacency matrix uses N^2 spaces no matter what value E is. An adjacency list may not use that many spaces.
+message_incorrect: Which one needs more memory/space, an adjacency list or adjacency matrix?
+files:
+- name: src/Main.java
+  visible: true

@@ -1,0 +1,16 @@
+type: edu
+files:
+- name: src/Task.java
+  visible: true
+  placeholders:
+  - offset: 338
+    length: 445
+    placeholder_text: /* Write your code here */
+- name: test/Tests.java
+  visible: false
+- name: src/Vertex.java
+  visible: true
+- name: src/Edge.java
+  visible: true
+- name: src/ForTesting.java
+  visible: false

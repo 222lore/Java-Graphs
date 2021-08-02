@@ -1,0 +1,14 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: A
+  is_correct: false
+- text: B
+  is_correct: false
+- text: C
+  is_correct: true
+message_correct: Correct!
+message_incorrect: Make sure the same edges are present in the adjacency matrix and graph!
+files:
+- name: src/Main.java
+  visible: true

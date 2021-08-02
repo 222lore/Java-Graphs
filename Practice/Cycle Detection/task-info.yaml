@@ -1,0 +1,16 @@
+type: edu
+files:
+- name: src/Task.java
+  visible: true
+  placeholders:
+  - offset: 322
+    length: 295
+    placeholder_text: /* Cycle Search Code Here */
+- name: test/Tests.java
+  visible: false
+- name: src/Edge.java
+  visible: true
+- name: src/Vertex.java
+  visible: true
+- name: src/ForTesting.java
+  visible: false

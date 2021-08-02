@@ -1,0 +1,9 @@
+Vertex: four
+Children: three, eight
+Vertex: six
+Children: five
+3
+3
+[Vertex: one
+Children: zero, seven, Vertex: two
+Children: three, five, seven]

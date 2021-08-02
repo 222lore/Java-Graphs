@@ -1,0 +1,32 @@
+type: output
+files:
+- name: src/Main.java
+  visible: true
+  placeholders:
+  - offset: 137
+    length: 319
+    placeholder_text: /* CREATE YOUR VERTEX OBJECTS HERE */
+  - offset: 507
+    length: 217
+    placeholder_text: /* CREATE YOUR EDGES HERE */
+  - offset: 768
+    length: 4
+    placeholder_text: /* VARIABLE HERE */
+  - offset: 818
+    length: 3
+    placeholder_text: /* VARIABLE HERE */
+  - offset: 867
+    length: 3
+    placeholder_text: /* ANSWER HERE */
+  - offset: 916
+    length: 3
+    placeholder_text: /* ANSWER HERE */
+  - offset: 965
+    length: 19
+    placeholder_text: /* PRINT METHOD HERE */
+- name: test/output.txt
+  visible: false
+- name: src/Vertex.java
+  visible: false
+- name: src/Edge.java
+  visible: false

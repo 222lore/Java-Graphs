@@ -1,0 +1,17 @@
+type: edu
+files:
+- name: src/Task.java
+  visible: true
+  placeholders:
+  - offset: 507
+    length: 477
+    placeholder_text: /* Put your code here */
+  - offset: 1086
+    length: 677
+    placeholder_text: /* Create the graph here */
+- name: test/Tests.java
+  visible: false
+- name: src/Edge.java
+  visible: true
+- name: src/Vertex.java
+  visible: true

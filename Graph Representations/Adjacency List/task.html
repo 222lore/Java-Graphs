@@ -1,0 +1,25 @@
+<html>
+<h2>Adjacency List</h2>
+<p>Another way to represent graphs in Java is with an adjacency list. It is quite similar
+to an adjacency matrix, however it is an array of lists (not an array list!) instead of
+a 2D array. The size of the array is the number of nodes in the graph. Let the array be
+array[], a list at array[i] represents the nodes that have an edge with the ith node. In
+order to represent a weighted graph, you would need a list of pairs for each node. Each
+pair would then have the node that it connects to, and the weight of the edge.</p>
+<h3>Example</h3>
+<p>Take a look at the image below. In the adjacency list, you can see the array of lists,
+where the first list is for node 1, the second list is for node 2, and so on. Then each value
+in those lists represents nodes that connect to the node for the list. For example, the
+nodes in the 3rd node's list are 1, 2, and 4, meaning that node 3 connects to nodes 1, 2,
+and 4.</p>
+<img src="https://miro.medium.com/max/1400/0*J7ZaHRxtBYCkaiQZ.png">
+<p>For a directed graph, you need to adjust the list to a list of pairs. The first value
+in the pair is the node to connect to, and the second value in the pair is the weight of the
+edge. In the image below, we can see the pair {3,3} in the 2nd node's list. This means there
+is an edge going from the 2nd node to the 3rd node that has a weight of 3.</p>
+<img src="https://www.educative.io/api/edpresso/shot/6738347923865600/image/4587527119831040">
+<p>If you're interested in learning more about adjacency matrices or lists, <a href="https://www.geeksforgeeks.org/graph-and-its-representations/" target="_blank">this link</a>
+goes into them as well as how to implement them in Java.</p>
+<h3>Multiple Choice Question</h3>
+<p>Which is better, an adjacency matrix or an adjacency list?</p>
+</html>

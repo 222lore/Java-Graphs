@@ -1,0 +1,35 @@
+type: edu
+files:
+- name: src/Task.java
+  visible: true
+- name: test/Tests.java
+  visible: false
+- name: src/Vertex.java
+  visible: true
+  placeholders:
+  - offset: 231
+    length: 26
+    placeholder_text: /* What parameters do you need for an edge? */
+  - offset: 287
+    length: 32
+    placeholder_text: /* TODO */
+  - offset: 475
+    length: 130
+    placeholder_text: /* TODO */
+- name: src/Edge.java
+  visible: true
+  placeholders:
+  - offset: 62
+    length: 18
+    placeholder_text: /* You need another field (int)... */
+  - offset: 103
+    length: 42
+    placeholder_text: /* What parameters do you need for an edge? */
+  - offset: 157
+    length: 85
+    placeholder_text: /* TODO */
+  - offset: 475
+    length: 19
+    placeholder_text: /* TODO */
+- name: src/ForTesting.java
+  visible: false

@@ -1,0 +1,42 @@
+<html>
+    <h2>Search Methods</h2>
+    <p>Now that we have a graph, what can we do with it? One real-world problem that
+        networks face is finding out the shortest path between two nodes or if a path
+        exists connecting two nodes. There are many ways to solve these two questions,
+        but we will go over three main algorithms.</p>
+    <h3>Depth-First Search (DFS)</h3>
+    <p>This algorithm is for finding if there exists a path between two nodes in a graph.
+        It is also the simplest of the three which you will learn. The algorithm works by
+        starting at the root node (one of the two nodes you are given) and explores as far
+        as possible along each connection before backtracking. </p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Depth-first-tree.svg/780px-Depth-first-tree.svg.png"
+         style="height:20%;">
+    <p>If you were to take the image above and use DFS to find if a connection exists
+        between nodes 1 and 7, the algorithm would check the following nodes in this
+        order: 1, 2, 3, 4, 5, 6, 7, and find that a connection does exist. Below is another
+        animated example of DFS.</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Depth-First-Search.gif/220px-Depth-First-Search.gif">
+    <h3>Breadth First Search (BFS)</h3>
+    <p>This algorithm is also for finding if there exists a path between two nodes in a graph.
+        The algorithm works by starting at the root node (one of the two nodes you are given)
+        and exploring all of the root node's children. If any of those children are the desired
+        node, then the algorithm stops. If not, the algorithm continues by checking the children
+        of those children, and so on.</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Depth-first-tree.svg/780px-Depth-first-tree.svg.png"
+         style="height:20%;">
+    <p>If you were to take the image above and use BFS to find if a connection exists
+        between nodes 1 and 9, the algorithm would check the following nodes in this
+        order: 1, 2, 7, 8, 3, 6, 9, 12, and find that a connection does exist. Below is another
+        animated example of BFS (gray represents children found, black represents searched
+        nodes).</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/46/Animated_BFS.gif">
+    <h3>Dijkstra's Algorithm</h3>
+    <p>Before you read about this algorithm just know, you will not be expected to create it.
+    Dijkstra's Algorithm is for finding the shortest path between two nodes in a directed/weighted
+    graph, however it will also work for finding paths in undirected graphs. A brief description for
+    how the algorithm works is that it creates a tree of shortest paths from the starting vertex
+    to all other points in the graph. If you are interested in learning more about Dijkstra's Algorithm,
+    <a href='https://brilliant.org/wiki/dijkstras-short-path-finder/' target='_blank'>this link</a>
+        goes over what it is, how to implement it, and examples of using it. I'd recommend checking
+    it out!</p>
+</html>

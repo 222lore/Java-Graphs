@@ -1,0 +1,14 @@
+type: edu
+files:
+- name: src/Task.java
+  visible: true
+  placeholders:
+  - offset: 430
+    length: 285
+    placeholder_text: /* Write your DFS method here */
+- name: test/Tests.java
+  visible: false
+- name: src/Vertex.java
+  visible: true
+- name: src/Edge.java
+  visible: true
