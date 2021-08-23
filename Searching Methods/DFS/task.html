@@ -1,22 +1,23 @@
 <html>
     <h1>DFS Practice</h1>
-    <p>In this task you will create a DFS method. The method will return true or false,
+    <p>In this task, you will create a DFS method. The method will return true or false,
     depending on if there is a path between the two parameter vertices <code>start</code>
     and <code>end</code>. You can also see the Vertex and Edge classes for this part. The graph (although the DFS method you create should work with
     any graph) you will work with is shown in the image below and already made in <code>Task.java</code></p>
     <img src='https://i.imgur.com/iiS0jjI.jpg'>
-    <h3>Algorithm</h3>
-    <p>Since this is your first time writing a searching method, I will help by providing
+    <h3>Algorithm (Strongly suggested you view)</h3>
+    <div class="hint">Since this is your first time writing a searching method, I will help by providing
     one algorithm for creating a DFS method. You can choose to create the method in a different
     way if you want. The algorithm starts at the root vertex. Now, get all of its children, then
-    one by one, check those children. If a child is the desired end node, then you can return true
+    one by one, check those children. If a child is the desired end node, you can return true
     as there is a possible path. If not, then get all of those child's children, and then one by one,
-    check those children and repeat the process. One important thing to keep note of is that you
+    check those children and repeat the process. One important thing to note is that you
     have to remember which vertices you have already visited. Since if you have visited that vertex
     before, that also means you have checked it and checked (or are in the process of checking) its
     children. This will avoid an infinite loop. To implement this algorithm, it is best to use
     a recursive method. Write your code in the method
     <code>private static boolean depthFirstSearch(Vertex start, Vertex end, ArrayList&lt;Vertex&gt; visited)</code>.
-        I've also included the same animated gif from before which might help you.</p>
+        I've also included the same animated gif from before, which might help you.
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Depth-First-Search.gif/220px-Depth-First-Search.gif">
+    </div>
 </html>
