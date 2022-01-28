@@ -32,7 +32,7 @@ public class Tests {
 
   @Test
   public void testPathEleventoFour() {
-    String msg = msg1 + "not " + msg2 + "eleven and four" + msg3 + "true";
+    String msg = msg1 + "not " + msg2 + "eleven and four" + msg3 + "false";
     Assert.assertFalse(msg, Task.depthFirstSearch(Task.eleven, Task.four));
   }
 
